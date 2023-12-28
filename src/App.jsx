@@ -1,7 +1,11 @@
+import LoginPage from "./Pages/login";
+import RegisterPage from "./Pages/register";
+
 function App() {
   return (
-    <div className="justify-center flex bg-blue-700 items-center min-h-screen">
-      <h1 className="text-3xl font-bold underline">Hello</h1>
+    <div className="flex justify-center items-center min-h-screen">
+      {/* <LoginPage></LoginPage> */}
+      <RegisterPage />
     </div>
   );
 }
