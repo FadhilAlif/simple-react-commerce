@@ -28,7 +28,10 @@ const FormRegister = () => {
         type="password"
         placeholder="********"
       />
-      <Button buttonText="Register" className="w-full bg-blue-600" />
+      <Button
+        buttonText="Register"
+        className="w-full bg-blue-600 hover:bg-blue-500"
+      />
     </form>
   );
 };
