@@ -30,8 +30,9 @@ const FormRegister = () => {
       />
       <Button
         buttonText="Register"
-        className="w-full bg-blue-600 hover:bg-blue-500"
-      />
+        className="w-full bg-blue-600 hover:bg-blue-500">
+          Register
+        </Button>
     </form>
   );
 };
